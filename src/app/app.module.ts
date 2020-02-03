@@ -14,6 +14,7 @@ import { CompetitionComponent } from './components/competition/competition.compo
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { ProductComponent } from "./components/product/product.component";
 
 import { MaterialModule } from './material.module'
 import { MatCardModule } from '@angular/material/card';
@@ -23,7 +24,8 @@ import { MatCardModule } from '@angular/material/card';
     AppComponent,
     CompetitionComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
