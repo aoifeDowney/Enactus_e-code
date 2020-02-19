@@ -13,17 +13,21 @@ import { CompetitionComponent } from './components/competition/competition.compo
 
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from "./components/product/product.component";
 
 import { MaterialModule } from './material.module'
 import { MatCardModule } from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompetitionComponent,
     HeaderComponent,
+    FooterComponent,
     HomeComponent,
     ProductComponent
   ],
@@ -36,7 +40,9 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     FormsModule,
     MaterialModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

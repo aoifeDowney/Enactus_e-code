@@ -1,0 +1,17 @@
+.example-card {
+    max-width: 300px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+  .title {
+      margin-left: 40px;
+  }
+
+  .button {
+      background-color: #4C6DA0;
+      color: white;
+      margin-left: 80px;
+  }

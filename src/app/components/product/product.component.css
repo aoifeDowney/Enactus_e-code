@@ -1,0 +1,22 @@
+.title {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6B89C;
+    font-size: 40px;
+    color: #6E7474;
+}
+
+.description {
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    margin-left: 60%;
+    margin-top: 20%;
+}
