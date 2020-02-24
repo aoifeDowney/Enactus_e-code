@@ -5,9 +5,9 @@
             <!-- Email form-->
             <form>
                 <div class="field">
-                  <input type="email" name="email" class="input" placeholder="Your Email">
+                  <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="emailValue">
                 </div>
-                <button type="submit" class="button is-danger is-large">Submit</button>
+                <button type="submit" class="button is-danger is-large" (click)="sumbit()">Submit</button>
             </form>
 
         </div>
