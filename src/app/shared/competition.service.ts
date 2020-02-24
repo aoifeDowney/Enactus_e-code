@@ -8,11 +8,16 @@ import { catchError, map, tap } from "rxjs/operators";
 export class CompetitionService {
 
     url = "http://DESKTOP-KAAD8A1:8444//E_CodeEmail/";
+    url2 = "http://DESKTOP-KAAD8A1:8444///E_log/";
 
     constructor(private http: HttpClient) {}
 
     getConfig(email: string) {
         return this.http.get(this.url + email);
+      }
+
+      getApi(name: string) {
+        return this.http.get(this.url2 + name);
       }
 
 }

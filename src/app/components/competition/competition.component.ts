@@ -23,7 +23,6 @@ export class CompetitionComponent implements OnInit {
       console.log(resp);
     });
 
-
     console.log("Button pressed!");
     console.log("Your email: " + this.emailValue);
   }
