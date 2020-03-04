@@ -17,6 +17,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from "./components/product/product.component";
+import { WaterBottleComponent } from "./components/product/waterbottle/waterbottle.component";
 
 import { MaterialModule } from './material.module'
 import { MatCardModule } from '@angular/material/card';
@@ -31,7 +32,8 @@ import {MatInputModule} from '@angular/material/input';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ProductComponent
+    ProductComponent,
+    WaterBottleComponent
   ],
   imports: [
     BrowserModule,
