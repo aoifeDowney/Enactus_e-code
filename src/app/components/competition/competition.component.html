@@ -1,17 +1,23 @@
 <section class="hero is-primary is-bold">
     <div class="hero-body">
         <div class="container">
-            <div>Competition!</div>
-            <!-- Email form-->
+            <img src="../../../assets/competition.png" class="img-fluid" alt="Competition Banner">
+            <div>
+                <label>Enter our competition to be entered into a draw to win Coca-Cola merchandise!</label>
+            </div>
             <form>
-                <div class="field">
-                  <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="emailValue">
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <div class="md-form">
+                            <input mdbInput type="email" id="email" class="form-control" placeholder="Your Email"
+                                [(ngModel)]="emailValue">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" mdbBtn color="primary" class="mb-0" (click)="sumbit()">Submit</button>
+                    </div>
                 </div>
-                <button type="submit" class="button is-danger is-large" (click)="sumbit()">Submit</button>
             </form>
-
         </div>
     </div>
 </section>
-
-

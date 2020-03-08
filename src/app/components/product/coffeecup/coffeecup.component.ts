@@ -3,15 +3,15 @@ import { Component, OnInit } from '@angular/core';
 import { CompetitionService } from "../../../shared/competition.service";
 
 @Component({
-  selector: 'app-waterbottle',
-  templateUrl: './waterbottle.component.html',
-  styleUrls: ['./waterbottle.component.css'],
+  selector: 'app-coffeecup',
+  templateUrl: './coffeecup.component.html',
+  styleUrls: ['./coffeecup.component.css'],
   providers: [CompetitionService]
 })
 
-export class WaterBottleComponent implements OnInit {
+export class CoffeeCupComponent implements OnInit {
 
-  componentName = 'waterbottle';
+  componentName = 'coffeecup';
 
   constructor(private competitionService: CompetitionService) {}
 
