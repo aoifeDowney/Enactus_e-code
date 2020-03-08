@@ -2,7 +2,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 *html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #ead2ac; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #fdcdcb; }
 
 
 /** BK - Using prebuilt themes could save lots of time on css and styling **/
